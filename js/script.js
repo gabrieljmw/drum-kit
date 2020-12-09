@@ -35,5 +35,3 @@ for (let item of drumKit) {
         }
     }
 }
-
-document.write(Object.values(drumKitAudio)[0]);
