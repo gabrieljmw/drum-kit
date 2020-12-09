@@ -1,11 +1,11 @@
-let crashAudio = new Audio('../audio/crash.wav');
-let highHatClosedAudio = new Audio('../audio/highhat-closed.wav');
-let highHatOpenAudio = new Audio('../audio/highhat-open.wav');
-let kickAudio = new Audio('../audio/kick.wav');
-let snareAudio = new Audio('../audio/snare.wav');
-let tom1Audio = new Audio('../audio/tom1.wav');
-let tom2Audio = new Audio('../audio/tom2.wav');
-let tom3Audio = new Audio('../audio/tom3.wav');
+let crashAudio = new Audio('audio/crash.wav');
+let highHatClosedAudio = new Audio('audio/highhat-closed.wav');
+let highHatOpenAudio = new Audio('audio/highhat-open.wav');
+let kickAudio = new Audio('audio/kick.wav');
+let snareAudio = new Audio('audio/snare.wav');
+let tom1Audio = new Audio('audio/tom1.wav');
+let tom2Audio = new Audio('audio/tom2.wav');
+let tom3Audio = new Audio('audio/tom3.wav');
 
 let drumKitAudio = {
     crash: crashAudio,
