@@ -1,0 +1,9 @@
+.pageWrap {
+    padding: 20px;
+    width: 700px;
+    margin: 0 auto;
+}
+
+#crash {
+    cursor: pointer;
+}
