@@ -1,10 +1,3 @@
-let crash = document.querySelector('#crash');
-
-crash.addEventListener('click', (e) => {
-    let crashAudio = new Audio('../audio/crash.wav');
-    crashAudio.play();
-});
-
 let crashAudio = new Audio('../audio/crash.wav');
 let highHatClosedAudio = new Audio('../audio/highhat-closed.wav');
 let highHatOpenAudio = new Audio('../audio/highhat-open.wav');
