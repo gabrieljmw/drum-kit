@@ -2,6 +2,10 @@
 
 let drumKit = document.querySelectorAll('.playable');
 
+function playAudio(drum) {
+
+}
+
 drumKit.forEach((drum) => {
     let audioPath = drum.getAttribute('data-audio');
     let createAudio = new Audio(audioPath);
