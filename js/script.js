@@ -19,11 +19,11 @@ let drumKitAudio = {
 
 let drumKit = document.querySelectorAll('#drumKit g');
 for (let item of drumKit) {
-    for (let value = 0; value < Object.keys(drumKitAudio).length; ++value) {
-        if (item.id == Object.keys(drumKitAudio)[value]) {
-            // document.write(`${item.id} equals ${Object.keys(drumKitAudio)[value]} is true`)
-            document.querySelector(`#${Object.keys(drumKitAudio)[value]}`).addEventListener('click', (e) => {
-                Object.values(drumKitAudio)[value].play();
+    for (let key = 0; key < Object.keys(drumKitAudio).length; ++key) {
+        if (item.id == Object.keys(drumKitAudio)[key]) {
+            document.write(`${item.id} equals ${Object.keys(drumKitAudio)[key]} is true`)
+            document.querySelector(`#${Object.keys(drumKitAudio)[key]}`).addEventListener('click', (e) => {
+                Object.values(drumKitAudio)[key].play();
             })
         }
     }
