@@ -21,7 +21,7 @@ let drumKit = document.querySelectorAll('#drumKit g');
 for (let item of drumKit) {
     for (let key = 0; key < Object.keys(drumKitAudio).length; ++key) {
         if (item.id == Object.keys(drumKitAudio)[key]) {
-            document.write(`${item.id} equals ${Object.keys(drumKitAudio)[key]} is true`)
+            // document.write(`${item.id} equals ${Object.keys(drumKitAudio)[key]} is true`)
             document.querySelector(`#${Object.keys(drumKitAudio)[key]}`).addEventListener('click', (e) => {
                 Object.values(drumKitAudio)[key].play();
             })
